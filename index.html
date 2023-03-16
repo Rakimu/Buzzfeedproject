@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>BuzzFeed Character Quiz</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="header">
+    <div>
+      <img class="logo" src="images/pngfind.com-buzzfeed-logo-png-74199.png">
+    </div>
+    <div><a href="https://www.buzzfeed.com/quizzes">Quizzes</a></div>
+    <div><a href="https://www.buzzfeed.com/tvandmovies">TV & Movies</a></div>
+    <div><a href="https://www.buzzfeed.com/shopping">Shopping</a></div>
+    <div><a href="https://www.buzzfeed.com/news">News</a></div>
+    <div><a href="https://www.buzzfeed.com/tasty">Tasty</a></div>
+  </div>
+
+  <div class="cover">
+    <!-- task 1: update the header for your quiz -->
+    <h1> Find out how you'll die! </h1>
+
+    <!-- task 2: update the cover photo for your quiz -->
+    <img class="coverPhoto" src= images/dead.jpg>
+  </div>
+
+  <!-- task 3: Update the questions for your quiz. Be sure to have AT LEAST three to ask the user. Add more questions if you want!-->
+   <div class="questions">
+     <form>
+      <h3> 1.) Where do you live?</h3>
+      <input type = "radio" id="suburban" class="q1" name="q1">
+       <label for="q1">Suburban Area</label><br>
+      <input type = "radio" id="rural" class="q1" name="q1">
+       <label for="q1">Rural Area</label><br>
+       <input type = "radio" id="urban" class="q1" name="q1">
+       <label for="q1">Urban Area</label><br>
+
+
+    </br>
+    <h3> 2.) What kind of job do you have(or see yourself having)? </h3>
+      <input type = "radio" id="ae" class="q2" name="q2">
+       <label for="q2">Architecture and engineering</label><br>
+      <input type = "radio" id="ace" class="q2" name="q2">
+       <label for="q2">Arts, Culture, Entertainment</label><br>
+      <input type = "radio" id="bma" class="q2" name="q2">
+       <label for="q2">Business, Management, Administration</label><br>
+      <input type = "radio" id="css" class="q2" name="q2">
+       <label for="q2">Community/Social service</label><br>
+     <input type = "radio" id="st" class="q2" name="q2">
+       <label for="q2">Science and Technology</label><br>
+     <input type = "radio" id="ml" class="q2" name="q2">
+       <label for="q2">Manual Labor</label><br>
+    </br>
+    <h3> 3.) Do you love travelling / exploring?</h3>
+     <input type = "radio" id="yes" class="q3" name="q3">
+       <label for="q3">Yes</label><br>
+     <input type = "radio" id="bma" class="q3" name="q3">
+       <label for="q3">No</label><br>
+    </form>
+  </div>
+  </br>
+
+  <div class="displayResult">
+    <button class="submit"> Submit!</button>
+  </div>
+  </br>
+  <script src="script.js"></script>
+</body>
+
+</html>
